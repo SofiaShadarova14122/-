@@ -1,0 +1,5 @@
+l = list(range(0, 30, 3))
+l1 = list(range(100, 200, 3))
+l2 = list(range(0, 10, 2))
+c = zip(l, l1, l2)
+print(list(c))
